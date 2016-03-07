@@ -20,4 +20,8 @@ a more maintanable and proper way in the 'src' folder. The code is shown only fo
    * verify.py: Script provided. I implemented my solution as an independent to be able to called this script as asked but you may want to use the Knapsack2d class for more flexibility and features.
 * data: contain input, output and drawing data.
 
+Thanks for reading, feel free to reach me for any comment or feedback!
+
+Nicolas Drizard 2016
+
     
