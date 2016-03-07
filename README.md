@@ -10,7 +10,7 @@ a more maintanable and proper way in the 'src' folder. The code is shown only fo
       * __init__(self, W, H, rectangles=[]) : constructor
       * build(self): build the optimized arrangement for the stored parameters
       * build_opt(self): build the optimized arrangement for the stored parameters with an optimized initialization (see notebook)
-      * draw_arangement(self, filename): Draw the optimized arangement (need to be called after building) and save it in '../data/filename'
+      * draw_arangement(self, filename): Draw the optimized arangement (need to be called after building) and save it in '../data/filename'. Drawing are rescaled in a unit square, random patterns are used to differentiate the rectangles from each other
       * get_output(self): build and return the output in the required format (as a raw string)
     * test_knapsack2d.py: contain some unit tests for the Knapsack2d class. Can be efficiently exectued as a routine with py.test
       * To install the package '$ pip install pytest' and '$pip install pytest-cov'.
