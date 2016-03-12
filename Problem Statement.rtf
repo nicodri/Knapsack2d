@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\author Charlotte Bowell}
+{\*\company Vicarious FPC Inc}}\vieww28280\viewh15180\viewkind1\viewscale140
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs21 \cf0 2D Knapsack Problem
+\b0 \
+\pard\pardeftab720\ri0\sl300\sb150
+\cf0 Given a box with size (W, H) and a collection of N rectangles with sizes (w_i, h_i) and values v_i > 0, find an arrangement of non-overlapping rectangles that fits within the box and maximizes their total value. Rectangles may be used more than once. Rectangles may be rotated. N may be very large.\
+We want you to output an arrangement of rectangles in the following format (we've attached an example output in the file rand0.out which gives an optimal solution to the problem given in rand0.in, and a script verify.py that will verify that your output is in the right format):\
+First line: total value\
+Second line: W H\
+All subsequent lines, one per rectangle in arrangement: x1 y1 x2 y2 value\
+where the rectangle goes from lower left corner (x1,y1) to upper right corner (x2,y2) and has the given value.\
+Propose a dynamic programming algorithm to solve this problem and implement it. Document your unit tests and derive the big-O complexity of the algorithm. Compare this to the big-O complexity of the brute force algorithm. Also document failure cases where your algorithm fails to find the known optimal solution.\'a0\
+We will judge your algorithm according to its big-O complexity and its performance on a combination of adversarially and randomly generated combinations of boxes and rectangles. We will use boxes with W, H in [1, 50] and rectangles with w, h in [1,30].\
+You can assume that all widths and heights are integers, but dealing correctly with floats will impress us. You should not assume that the rectangle values are integers, or small.\
+
+\b How you will be evaluated:\
+\pard\pardeftab720\ri0\sl300\sb150\sa100
+
+\b0 \cf0 - Demonstrate your thought process. Document what you tried and what you would like to try if given more time.\
+- Demonstrate your understanding of the problem. What are the tradeoffs you encountered? \
+\pard\pardeftab720\ri0\sl300\sb150
+\cf0 - Write clean, well organized, documented code. It doesn't need to be perfect, but it should demonstrate that you appreciate the quality of code required by a team environment. We expect modular, maintainable code that uses object-oriented programming appropriately - this shouldn't be a one-off script.\
+- Test your code, both as a whole and with unit tests.\
+
+\b Frequently asked questions:\
+
+\b0 - Q: What libraries can I use?\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+- A: You can use anything that isn't solving the problem for you. You probably won't want to use anything beyond numpy, though.\
+\
+- Q: What can I read?\
+- A: You can read anything you want in the literature about the problem, as long as you don't read any code.\
+\
+Good luck!}
